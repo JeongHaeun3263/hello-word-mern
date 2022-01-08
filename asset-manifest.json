@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hello-word-mern/static/css/main.1ecda205.chunk.css",
+    "main.js": "/hello-word-mern/static/js/main.6758ed28.chunk.js",
+    "main.js.map": "/hello-word-mern/static/js/main.6758ed28.chunk.js.map",
+    "runtime-main.js": "/hello-word-mern/static/js/runtime-main.ee4ace38.js",
+    "runtime-main.js.map": "/hello-word-mern/static/js/runtime-main.ee4ace38.js.map",
+    "static/js/2.8a6abd55.chunk.js": "/hello-word-mern/static/js/2.8a6abd55.chunk.js",
+    "static/js/2.8a6abd55.chunk.js.map": "/hello-word-mern/static/js/2.8a6abd55.chunk.js.map",
+    "static/js/3.b5210d90.chunk.js": "/hello-word-mern/static/js/3.b5210d90.chunk.js",
+    "static/js/3.b5210d90.chunk.js.map": "/hello-word-mern/static/js/3.b5210d90.chunk.js.map",
+    "index.html": "/hello-word-mern/index.html",
+    "static/css/main.1ecda205.chunk.css.map": "/hello-word-mern/static/css/main.1ecda205.chunk.css.map",
+    "static/js/2.8a6abd55.chunk.js.LICENSE.txt": "/hello-word-mern/static/js/2.8a6abd55.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee4ace38.js",
+    "static/js/2.8a6abd55.chunk.js",
+    "static/css/main.1ecda205.chunk.css",
+    "static/js/main.6758ed28.chunk.js"
+  ]
+}
