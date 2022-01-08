@@ -1,11 +1,10 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Navbar from './components/layout/Navbar';
 import About from './components/pages/About';
 import axios from 'axios';
 import { Fragment, useState } from 'react';
-import Search from './components/words/Search';
 import WordList from './components/words/WordList';
 
 function App() {
@@ -51,7 +50,7 @@ function App() {
 					<Switch>
 						<Route
 							exact
-							path='/'
+							path='/hello-word-mern'
 							render={() => (
 								<Fragment>
 									<WordList
@@ -62,8 +61,8 @@ function App() {
 								</Fragment>
 							)}
 						/>
-						<Route exact path='/about' component={About} />
-						<Route exact path='/list' />
+						<Route path='/about' component={About} />
+						<Route path='/list' />
 					</Switch>
 				</div>
 			</div>

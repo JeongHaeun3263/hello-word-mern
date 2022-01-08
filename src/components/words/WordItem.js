@@ -1,12 +1,10 @@
 import React from 'react';
 
-import { FaTrash } from 'react-icons/fa';
 import {
 	Button,
 	Card,
 	CardActions,
 	CardContent,
-	ListItem,
 	Typography,
 } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
