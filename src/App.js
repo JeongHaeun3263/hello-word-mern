@@ -1,11 +1,17 @@
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+	Redirect,
+} from 'react-router-dom';
 
 import Navbar from './components/layout/Navbar';
 import About from './components/pages/About';
 import axios from 'axios';
 import { Fragment, useState } from 'react';
 import WordList from './components/words/WordList';
+import Footer from './components/layout/Footer';
 
 function App() {
 	const [words, setWords] = useState([
@@ -46,23 +52,20 @@ function App() {
 		<Router>
 			<div className='App'>
 				<Navbar />
+				<Footer />
 				<div className='container'>
 					<Switch>
-						<Route
-							exact
-							path='/hello-word-mern'
-							render={() => (
-								<Fragment>
-									<WordList
-										words={words}
-										onAdd={handleAdd}
-										onDelete={handleDelete}
-									/>
-								</Fragment>
-							)}
-						/>
-						<Route path='/about' component={About} />
-						<Route path='/list' />
+						<Route exact path='/'>
+							<WordList
+								words={words}
+								onAdd={handleAdd}
+								onDelete={handleDelete}
+							/>
+						</Route>
+						<Route exact path='/about'>
+							<About />
+						</Route>
+						<Redirect to='/' />
 					</Switch>
 				</div>
 			</div>
