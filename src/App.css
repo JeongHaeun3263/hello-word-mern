@@ -421,3 +421,8 @@ table th {
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 1rem;
 }
+
+.word__add__form {
+	display: flex;
+	flex-direction: column;
+}
