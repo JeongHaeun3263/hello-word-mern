@@ -6,12 +6,12 @@ const Navbar = () => {
 		<nav className='navbar bg-primary'>
 			<h1>Hello Word</h1>
 			<ul>
-				{/* <li>
+				<li>
 					<Link to='/'>Home</Link>
-				</li> */}
-				{/* <li>
+				</li>
+				<li>
 					<Link to='/list'>List</Link>
-				</li> */}
+				</li>
 				<li>
 					<Link to='/about'>About</Link>
 				</li>
