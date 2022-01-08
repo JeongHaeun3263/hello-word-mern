@@ -51,7 +51,7 @@ function App() {
 					<Switch>
 						<Route
 							exact
-							path='/'
+							path='/hello-word-mern'
 							render={() => (
 								<Fragment>
 									<WordList
