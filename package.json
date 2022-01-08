@@ -2,7 +2,7 @@
 	"name": "hello-word-mern",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://JeongHaeun3263.github.io/hello-word-mern",
+	"homepage": "http://JeongHaeun3263.github.io/hello-word-mern/",
 	"dependencies": {
 		"@emotion/react": "^11.7.1",
 		"@emotion/styled": "^11.6.0",
